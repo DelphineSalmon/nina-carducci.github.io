@@ -12,10 +12,17 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+<<<<<<< Updated upstream
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+=======
+	<script src="./assets/bootstrap/bootstrap.bundle.js" async></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" async integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="./assets/maugallery.js" async></script>
+	<script src="./assets/scripts.js" async></script>
+>>>>>>> Stashed changes
 </head>
 <body>
 <div class="top-header">
@@ -40,7 +47,15 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata.webp" class="d-block w-100" alt="Homme d'affaire traversant un passage piéton">
+				<img
+				src="./assets/images/slider/ryoji-iwata.webp" width="100%" class="d-block w-100" alt="Homme d'affaire traversant un passage piéton"
+				sizes="(max-width: 1900px) 100vw, 1900px"
+				srcset="
+				./assets/images/slider/ryoji-iwata-w_600.jpg 600w,
+				./assets/images/slider/ryoji-iwata-w_1238.jpg 1238w,
+				./assets/images/slider/ryoji-iwata-w_1646.jpg 1646w,
+				./assets/images/slider/ryoji-iwata-w_1900.jpg 1900w">
+			 
 			</div>
 			<div class="carousel-item">
 				<img src="./assets/images/slider/nicholas-green.webp" class="d-block w-100" alt="Jeunes spectateurs s'amusant à un concert">
@@ -158,5 +173,6 @@
 		</div>
 	</div>
 </div>
+
 </body>
 </html>
