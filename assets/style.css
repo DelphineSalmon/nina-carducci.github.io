@@ -50,7 +50,6 @@
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
-	height: 60%;
 }
 
 .picture.left::before {
